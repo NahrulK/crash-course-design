@@ -10,6 +10,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    perspective: 1000px;
 }
 
 .container {
@@ -18,9 +19,11 @@ body {
     align-items: center;
     justify-content: center;
     width: 50%;
+    /* background: khaki; */
 }
 
 .card {
+    transform-style: preserve-3d;
     min-height: 60vh;
     width: 25rem;
     /* background-color: lightcoral; */
